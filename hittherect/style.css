@@ -37,7 +37,7 @@ p {
 }
 
 .image-group img {
-    max-width: 100%;
+    width: 22%;
     height: auto;
 }
 
