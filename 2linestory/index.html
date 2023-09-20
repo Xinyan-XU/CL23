@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&family=ZCOOL+QingKe+HuangYou&display=swap"
+        rel="stylesheet">
+    <title>Situation Puzzle</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <hr class="div_line">
+
+    <h1 id="cn_title" class="heading1">海龟汤面 SITUATION PUZZLE</h1>
+
+    <!-- the 2 line story -->
+    <div class="story_section">
+        <p>小明："我把妹妹弄丢了."</p>
+        <p>Little Ming said, 'I lost my sister in the winter.'</p>
+        <p>"直到春天才找到." </p>
+        <p>'I find her when spring comes.'</p>
+    </div>
+
+    <h2 class="heading2">海龟汤底 SOLVE THE PUZZLE</h2>
+
+    <hr class="div_line2">
+
+    <!-- the puzzle clue -->
+    <div class="qs_section">
+        <p class="qs_text">Is Sister an Animal?</p>
+
+        <p class="qs_text">Is Spring a Person?</p>
+
+        <p class="qs_text">Did an Accident Happen to Ming'sSisiter?</p>
+    </div>
+
+    <div class="hover_section">
+        <p class="hover_text"> NO </p>
+
+        <p class="hover_text"> NO </p>
+
+        <p class="hover_text_red"> YES </p>
+    </div>
+
+    <hr class="div_line">
+
+    <!-- click for pic clue 1 -->
+    <div class="clue_section">
+        <button id="clue_1" class="hover_clue">WHERE IS SHE !!</button>
+    </div>
+
+    <!-- show pic clue 1-->
+    <div id="clue_1" class="clue_section2">
+        <img id="clue_1_img" class="clue_img hide" class="clue_img_left" src="./image/snowman_winter.PNG"
+            alt="snowman_winter">
+    </div>
+
+    <!-- click for pic clue 1 -->
+    <div class="clue_section">
+        <button id="clue_2" class="hover_clue">WHAT HAPPENED ??</button>
+    </div>
+
+    <!-- show pic clue 2-->
+    <div id="clue_2" class="clue_section2">
+        <img id="clue_2_img" class="clue_img hide" class="clue_img_right" src="./image/snowman_spring.PNG"
+            alt="snowman_spring">
+    </div>
+
+    <hr class="div_line3">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
