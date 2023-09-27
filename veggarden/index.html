@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- links to fonts -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>VegGarden</title>
+</head>
+
+<body>
+    <h1>Welcome to Q Garden</h1>
+
+    <!-- random -->
+    <section class="plant_random">
+        <h2>Plan to Grow Something Today? Why not Try
+            <span id="plant_generate">
+                <input id="plant_name_type"></input>
+                <button id="plant_search">To Grow!</button></span>
+        </h2>
+    </section>
+
+    <!-- Garden plan and search result -->
+    <section class="garden_and_info">
+        <div class="garden_plan">
+            <img src="./img/garden.png" alt="Q_garden_plan" />
+        </div>
+
+        <div class="plant_info">
+            <h3 id="p_bio_name"></h3>
+            <p id="p_info"></p>
+            <p id="p_growingdays"></p>
+            <p id="p_suncond"></p>
+            <img id="p_img" />
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
