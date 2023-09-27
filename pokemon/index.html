@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Teko:wght@300;400;500;600;700&family=ZCOOL+QingKe+HuangYou&display=swap"
+        rel="stylesheet">
+    <title>Pokemon</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1 class="project_heading">Random Pokemon Knowledge Today: <span id="pokemon-name"></span></h1>
+
+    <section class="project_container">
+        <h2 class="project_subheading">Enter Pokemon Name: </h2>
+        <div class="project_entry">
+            <input id="pokemon-name-type"></input>
+            <button id="pokemon-button">Get Info</button>
+        </div>
+
+        <div class="pokemon_info">
+            <h3 class="pokemon_name" id="p-name"></h3>
+            <p class="pokemon_weight" id="p-weight"></p>
+            <img class="pokemon_image" id="p-img" />
+            <div class="pokemon_type" id="p-type"></div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
